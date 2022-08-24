@@ -24,9 +24,37 @@ h3,
 h4 {
   font-family: "Montserrat", sans-serif;
 }
-// Bootstrap adjustments
+// Bootstrap for dashboard
 form.button_to {
   display: inline;
+}
+
+.table-success{
+  margin-top: 60px;
+}
+
+.danger.text-center.status {
+  padding: 20px;
+  font-size: 2em;
+}
+
+.info.text-center.status {
+  padding: 20px;
+  font-size: 2em;
+}
+
+.success.text-center.status{
+  padding: 20px;
+  font-size: 2.0em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.warning.text-center.status{
+  padding: 20px;
+  font-size: 2.0em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 .hero {
