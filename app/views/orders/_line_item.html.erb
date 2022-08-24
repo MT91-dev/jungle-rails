@@ -1,0 +1,19 @@
+<tr>
+  <td>
+  <%= image_tag purchased_product.image.thumb.url , alt: purchased_product.name %>
+  </td>
+  <td>
+    <h4><%= purchased_product.name %></h4>
+    <br>
+    <p><%= purchased_product.description %></p>
+  </td>
+  <td>
+    <%= humanized_money_with_symbol purchased_product.price %>
+  </td>
+  <td>
+    <%= quantity %>
+  </td>
+  <td>
+    <%= humanized_money_with_symbol purchased_product.price * quantity %>
+  </td>
+</tr>
