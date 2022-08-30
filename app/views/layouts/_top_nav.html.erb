@@ -61,7 +61,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
+          <%= link_to cart_path, id: "nav-cart", class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
           My Cart (<%= cart.size %>) <% end %>
         </li>
         <li class="nav-item end-0">
