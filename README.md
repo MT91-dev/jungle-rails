@@ -2,6 +2,36 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Screenshots
+
+### Home Page
+!['home-page'](https://github.com/MT91-dev/jungle-rails/blob/master/docs/Jungle%20-%20Home%20Page.png?raw=true)
+
+
+### Login Page
+!['login-page'](https://github.com/MT91-dev/jungle-rails/blob/master/docs/Jungle%20-%20Login%20Page.png?raw=true)
+
+
+### Products Page
+!['products-page'](https://github.com/MT91-dev/jungle-rails/blob/master/docs/Jungle%20-%20Products%20on%20Home%20Page.png?raw=true)
+
+
+### Admin Dashboard
+!['admin-dashboard'](https://github.com/MT91-dev/jungle-rails/blob/master/docs/Jungle%20-%20Admin%20Dashboard.png?raw=true)
+
+
+### View Cart
+!['view-cart'](https://github.com/MT91-dev/jungle-rails/blob/master/docs/Jungle%20-%20View%20Cart.png?raw=true)
+
+
+### Payment Prompt
+!['payment-prompt'](https://github.com/MT91-dev/jungle-rails/blob/master/docs/Jungle%20-%20Payment%20Prompt.png?raw=true)
+
+
+### About Us
+!['about-us'](https://github.com/MT91-dev/jungle-rails/blob/master/docs/Jungle%20-%20About%20Us.png?raw=true)
+
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -19,7 +49,7 @@ If Rails is complaining about authentication to the database, uncomment the user
 
 ## Stripe Testing
 
-Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+Use Credit Card # 4242 4242 4242 4242 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
